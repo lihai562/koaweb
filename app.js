@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Koa from 'koa';
 import router from 'koa-simple-router';
 import babel_co from 'babel-core/register';
@@ -20,3 +21,6 @@ initController.init(app,router) ;
  app.use(serve(CONFIG.get('staticDir')));//koa-static
 app.listen(CONFIG.get('port'));
 export default app
+=======
+
+>>>>>>> 785060f97bc5fba1d777dfb59cec2017bbbc0754
