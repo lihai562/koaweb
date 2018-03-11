@@ -37,6 +37,7 @@
     "koa-swig": "^2.2.1",
     "path": "^0.12.7",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "webpack": "^3.10.0"
   }
 }
