@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test" : "webpack && gulp"
-
+    "test": "webpack"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihai562/koaweb.git"
+  },
+  "author": "lihai",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
