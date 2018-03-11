@@ -3,6 +3,7 @@ node_js:
 - 8.9.4
 after_script:
 - echo "-after  start-----------------------------------"
+npm install test
 - scp -r -o StrictHostKeyChecking=no 139.199.72.81:/root/app
 before_install:
 - openssl aes-256-cbc -K $encrypted_03f93fd6aa16_key -iv $encrypted_03f93fd6aa16_iv
